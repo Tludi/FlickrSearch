@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>4A75D513-0E44-4A58-8ACE-01AD7BF1001C</string>
+	<string>75CF770F-CB8B-4B0A-BA9F-2A34D496DCE5</string>
 	<key>IDESourceControlProjectName</key>
-	<string>FlickrSearch</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BCA2ECC56C2338ED314CA35FA12242EEE6598CE7</key>
 		<string>https://github.com/Tludi/FlickrSearch.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FlickrSearch.xcodeproj</string>
+	<string>FlickrSearch.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BCA2ECC56C2338ED314CA35FA12242EEE6598CE7</key>
