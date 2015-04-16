@@ -8,16 +8,16 @@
 
 import UIKit
 
-// let reuseIdentifier = "Cell"
-
 class FlickrPhotosViewController: UICollectionViewController {
   // the CollectionView object to be reused when iterating
   // In this case it is the view with the Identifier of FlickrCell
   private let reuseIdentifier = "FlickrCell"
   // sets the margins of the object on the view. In this case the FlickrCell
-  private let sectionInsets = UIEdgeInsets(top: 10.0, left: 20.0, bottom: 10.0, right: 20.0)
+  private let sectionInsets = UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
   
+  // Create a variable with the search results from the FlickrSearcher file
   private var searches = [FlickrSearchResults]()
+  // Set variable to the Flickr() function in FlickrSearcher file
   private let flickr = Flickr()
   
   func photoForIndexPath(indexPath: NSIndexPath) -> FlickrPhoto {
@@ -27,6 +27,9 @@ class FlickrPhotosViewController: UICollectionViewController {
 
 }
 
+// extension in this file allows for seperation of functions for easier grouping
+// I could have just defined the functions inside the class and it would have worked (tested)
+// Extensions are also for adding to a class where you do not have access to the source code
 extension FlickrPhotosViewController : UITextFieldDelegate {
   func textFieldShouldReturn(textField: UITextField) -> Bool {
     

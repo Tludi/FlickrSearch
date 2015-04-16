@@ -40,6 +40,7 @@
 		00712A6A1ADF548100C988A5 /* FlickrPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhotosViewController.swift; sourceTree = "<group>"; };
 		00712A6C1ADF579400C988A5 /* FlickrSearcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrSearcher.swift; sourceTree = "<group>"; };
 		00712A6E1ADF631400C988A5 /* FlickrPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhotoCell.swift; sourceTree = "<group>"; };
+		EFD82E061AE053D600EFC077 /* FlickrPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FlickrPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 		00712A3A1ADF493D00C988A5 = {
 			isa = PBXGroup;
 			children = (
+				EFD82E061AE053D600EFC077 /* FlickrPlayground.playground */,
 				00712A451ADF493D00C988A5 /* FlickrSearch */,
 				00712A5B1ADF493D00C988A5 /* FlickrSearchTests */,
 				00712A441ADF493D00C988A5 /* Products */,
@@ -419,6 +421,7 @@
 				00712A641ADF493D00C988A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00712A651ADF493D00C988A5 /* Build configuration list for PBXNativeTarget "FlickrSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +430,7 @@
 				00712A671ADF493D00C988A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
